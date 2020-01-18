@@ -24,6 +24,8 @@ C++ language binding library integrating ZeroMQ with Boost Asio
 Summary: C++ language binding library integrating ZeroMQ with Boost Asio
 Group: Development/C++ and C
 Provides: azmq-devel = %{EVRD}
+Requires: pkgconfig(libzmq)
+Requires: boost-devel
 
 %description -n %{devname}
 C++ language binding library integrating ZeroMQ with Boost Asio
