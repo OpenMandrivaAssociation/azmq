@@ -15,6 +15,9 @@ BuildRequires: boost-devel
 # Headers-only library
 BuildArch: noarch
 
+%patchlist
+azmq-1.0.3-boost-1.86.patch
+
 %description
 C++ language binding library integrating ZeroMQ with Boost Asio
 
