@@ -3,7 +3,7 @@
 Summary: C++ language binding library integrating ZeroMQ with Boost Asio
 Name: azmq
 Version: 1.0.3
-Release: 3
+Release: 4
 Url: https://github.com/zeromq/azmq
 Source0: https://github.com/zeromq/azmq/archive/v%{version}/%{name}-%{version}.tar.gz
 Group: System/Libraries
