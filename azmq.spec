@@ -42,3 +42,4 @@ C++ language binding library integrating ZeroMQ with Boost Asio
 
 %files -n %{devname}
 %{_includedir}/azmq
+%{_prefix}/lib/cmake/azmq
